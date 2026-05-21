@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Randolh Estuardo Tecún Culajay, Full-Stack Developer.">
+    <link rel="icon" href="./img/icons/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Randolh Estuardo | Portafolio</title>
+</head>
+
+<body class="page">
+    <input type="checkbox" id="theme-toggle" class="theme-toggle__checkbox" aria-hidden="true">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle__checkbox" aria-hidden="true">
+
+    <div class="page__wrapper">
+        <label for="nav-toggle" class="nav-toggle__button" title="Menú">
+            <img src="./img/icons/menu.svg" alt="Menú" class="nav-toggle__icon">
+        </label>
+
+        <label for="theme-toggle" class="theme-toggle__button" title="Cambiar Tema">
+            <img src="./img/icons/moon.svg" alt="Modo Oscuro" class="icon-moon">
+            <img src="./img/icons/sun.svg" alt="Modo Claro" class="icon-sun">
+        </label>
+
+        <header class="dock">
+            <nav class="dock__nav">
+                <a href="#inicio" class="dock__item" data-tooltip="Inicio">
+                    <img src="./img/icons/home.svg" alt="Inicio" class="dock__icon">
+                </a>
+                <a href="#sobre-mi" class="dock__item" data-tooltip="Sobre Mí">
+                    <img src="./img/icons/profile.svg" alt="Sobre Mí" class="dock__icon">
+                </a>
+                <a href="#habilidades" class="dock__item" data-tooltip="Habilidades">
+                    <img src="./img/icons/code-alt.svg" alt="Habilidades" class="dock__icon">
+                </a>
+                <a href="#proyectos" class="dock__item" data-tooltip="Proyectos">
+                    <img src="./img/icons/file.svg" alt="Proyectos" class="dock__icon">
+                </a>
+                <a href="#eventos" class="dock__item" data-tooltip="Eventos">
+                    <img src="./img/icons/calendar.svg" alt="Eventos" class="dock__icon">
+                </a>
+                <a href="#contacto" class="dock__item" data-tooltip="Contacto">
+                    <img src="./img/icons/mail.svg" alt="Contacto" class="dock__icon">
+                </a>
+            </nav>
+        </header>
+
+        <main class="content">
+            <section id="inicio" class="hero section">
+                <div class="hero__avatar">
+                    <img src="./img/avatar.png" alt="Foto de Randolh Estuardo Tecún Culajay" class="hero__image">
+                </div>
+
+                <h1 class="hero__title">Randolh Estuardo Tecún</h1>
+                <div class="hero__location">Guatemala</div>
+                <h2 class="hero__subtitle">Full-Stack Developer</h2>
+                <p class="hero__description">Creando soluciones creativas y eficientes, desde lógica compleja hasta
+                    interfaces atractivas.</p>
+            </section>
+
+            <section id="sobre-mi" class="about section">
+                <h2 class="section__title">Sobre Mí</h2>
+                <div class="about__content">
+                    <div class="about__block">
+                        <h3 class="about__subtitle">¿Quién soy?</h3>
+                        <p class="about__text">Desarrollador perfeccionista, detallista y apasionado. Disfruto aprender
+                            y entender cómo funcionan las cosas desde lo más básico hasta lo más complejo.</p>
+                    </div>
+                    <div class="about__block">
+                        <h3 class="about__subtitle">¿Qué me gusta?</h3>
+                        <p class="about__text">Música (Rock/Clásica), anime y videojuegos competitivos/creativos. Además
+                            me apasiona la programación y la tecnología.</p>
+                    </div>
+                    <div class="about__block">
+                        <h3 class="about__subtitle">¿Qué estoy aprendiendo?</h3>
+                        <p class="about__text">Inglés técnico y diferentes tecnologías de desarrollo backend como
+                            Node.js y Python.</p>
+                    </div>
+                    <div class="about__block">
+                        <h3 class="about__subtitle">Áreas de interés</h3>
+                        <p class="about__text">Desarrollo Full-Stack, enfocado principal mente en el desarrollo backend
+                            con conocimientos en frontend y bases de datos.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="habilidades" class="skills section">
+                <h2 class="section__title">Habilidades</h2>
+
+                <article class="skill__group">
+                    <h3 class="skills__subtitle">Frontend</h3>
+                    <ul class="skills__list">
+                        <li class="skill__item">
+                            <img src="./img/icons/html5.svg" alt="HTML5" class="skill__icon">
+                            HTML
+                        </li>
+                        <li class="skill__item">
+                            <img src="./img/icons/css3.svg" alt="CSS3" class="skill__icon">
+                            CSS
+                        </li>
+                        <li class="skill__item">
+                            <img src="./img/icons/javascript.svg" alt="JavaScript" class="skill__icon">
+                            JavaScript
+                        </li>
+                        <li class="skill__item">
+                            <img src="./img/icons/react.svg" alt="React" class="skill__icon">
+                            React
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="skill__group">
+                    <h3 class="skills__subtitle">Backend</h3>
+                    <ul class="skills__list">
+                        <li class="skill__item">
+                            <img src="./img/icons/nodejs.svg" alt="Node.js" class="skill__icon">
+                            Node.js
+                        </li>
+                        <li class="skill__item">
+                            <img src="./img/icons/python.svg" alt="Python" class="skill__icon">
+                            Python
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="skill__group">
+                    <h3 class="skills__subtitle">Base de Datos</h3>
+                    <ul class="skills__list">
+                        <li class="skill__item">
+                            <img src="./img/icons/mysql.svg" alt="MySQL" class="skill__icon">
+                            MySQL
+                        </li>
+                        <li class="skill__item">
+                            <img src="./img/icons/mongo.svg" alt="MongoDB" class="skill__icon">
+                            MongoDB
+                        </li>
+                        <li class="skill__item">
+                            <img src="./img/icons/supabase.svg" alt="Supabase" class="skill__icon">
+                            Supabase
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="skill__group">
+                    <h3 class="skills__subtitle">Herramientas & Entorno</h3>
+                    <ul class="skills__list">
+                        <li class="skill__item">
+                            <img src="./img/icons/linux.svg" alt="Linux" class="skill__icon">
+                            Linux
+                        </li>
+                        <li class="skill__item">
+                            <img src="./img/icons/vscode.svg" alt="Visual Studio Code" class="skill__icon">
+                            Visual Studio Code
+                        </li>
+                        <li class="skill__item">
+                            <img src="./img/icons/git.svg" alt="Git" class="skill__icon">
+                            Git
+                        </li>
+                        <li class="skill__item">
+                            <img src="./img/icons/github.svg" alt="GitHub" class="skill__icon">
+                            GitHub
+                        </li>
+                        <li class="skill__item">
+                            <img src="./img/icons/postman.svg" alt="Postman" class="skill__icon">
+                            Postman
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="skill__group">
+                    <h3 class="skills__subtitle">Soft Skills</h3>
+                    <ul class="skills__list">
+                        <li class="skill__item">
+                            Trabajo en equipo
+                        </li>
+                        <li class="skill__item">
+                            Comunicación efectiva
+                        </li>
+                        <li class="skill__item">
+                            Resolución de problemas
+                        </li>
+                        <li class="skill__item">
+                            Adaptabilidad
+                        </li>
+                        <li class="skill__item">
+                            Aprendizaje continuo
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id="proyectos" class="projects section">
+                <h2 class="section__title">Proyectos</h2>
+                <div class="projects__grid">
+                    <article class="project-card">
+                        <h3 class="project-card__title">Sistema de Gamificación</h3>
+                        <img src="./img/screenshots/pj-gamification.png" alt="Sistema de Gamificación Estudiantil"
+                            class="project-card__image">
+                        <p class="project-card__description">Plataforma para motivar a estudiantes mediante mecánicas de
+                            juego.</p>
+                        <ul class="project-card__list">
+                            <li class="project-card__item">React</li>
+                            <li class="project-card__item">Supabase</li>
+                            <li class="project-card__item">Node.js</li>
+                            <li class="project-card__item">Express</li>
+                        </ul>
+                        <a href="https://banco-trabaja-y-ahorra.onrender.com/" class="button project-card__button"
+                            target="_blank">Ver Proyecto</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3 class="project-card__title">Juego/Quiz Interactivo</h3>
+                        <img src="./img/screenshots/pj-commit.png" alt="Juego/Quiz Interactivo"
+                            class="project-card__image">
+                        <p class="project-card__description">Plataforma de quiz interactiva en donde se pueden crear
+                            preguntas y jugar de manera simultánea con varios jugadores.</p>
+                        <ul class="project-card__list">
+                            <li class="project-card__item">React</li>
+                            <li class="project-card__item">JSON</li>
+                            <li class="project-card__item">Node.js</li>
+                            <li class="project-card__item">Express</li>
+                        </ul>
+                        <a href="https://commit-c3b3.onrender.com/host" class="button project-card__button"
+                            target="_blank">Ver Proyecto</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3 class="project-card__title">Sistema de Citas - Escuela de Manejo</h3>
+                        <img src="./img/screenshots/pj-python.png" alt="Sistema de Citas - Escuela de Manejo"
+                            class="project-card__image">
+                        <p class="project-card__description">Aplicación de terminal basada en JSON para gestión de
+                            citas.</p>
+                        <ul class="project-card__list">
+                            <li class="project-card__item">Python</li>
+                            <li class="project-card__item">JSON</li>
+                            <li class="project-card__item">Terminal</li>
+                        </ul>
+                        <a href="https://github.com/Randolh/Sistema-de-Citas-DriveSafe"
+                            class="button project-card__button" target="_blank">Ver Proyecto</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3 class="project-card__title">Add-ons Minecraft Bedrock</h3>
+                        <img src="./img/screenshots/pj-mod.png" alt="Add-ons Minecraft Bedrock"
+                            class="project-card__image">
+                        <p class="project-card__description">Modding avanzado con misiones, scripting e interfaces
+                            custom.</p>
+                        <ul class="project-card__list">
+                            <li class="project-card__item">JavaScript</li>
+                            <li class="project-card__item">Scripting API</li>
+                            <li class="project-card__item">Minecraft API</li>
+                            <li class="project-card__item">JSON</li>
+                        </ul>
+                        <a href="https://www.curseforge.com/minecraft-bedrock/addons/another-thirst-system"
+                            class="button project-card__button" target="_blank">Ver Proyecto</a>
+                    </article>
+                </div>
+            </section>
+
+            <section id="eventos" class="events section">
+                <h2 class="section__title">Eventos Importantes</h2>
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Inicio en Campuslands</h3>
+                            <img src="./img/pictures/campuslands.jpg" alt="Inicio en Campuslands"
+                                class="timeline__image">
+                            <p class="timeline__description"><strong>2026</strong> | Campuslands Guatemala</p>
+                            <a href="https://www.campuslands.pro/" class="button button--small timeline__button"
+                                target="_blank">Más Info</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <h3 class="timeline__title">Certificación Desarrollador FullStack Jr.</h3>
+                            <img src="./img/pictures/dev-jr.jpeg" alt="Certificación en Programación Tecnológica"
+                                class="timeline__image">
+                            <p class="timeline__description"><strong>2025</strong> | SISAP & Fundación Génesis</p>
+                            <a href="https://www.genesisempresarial.org/post/47-j%C3%B3venes-guatemaltecos-certificados-en-programaci%C3%B3n-tecnol%C3%B3gica"
+                                class="button button--small timeline__button" target="_blank">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contacto" class="contact section">
+                <h2 class="section__title">Contacto</h2>
+                <p class="contact__text">Conectemos y hagamos cosas increíbles juntos.</p>
+                <div class="contact__links">
+                    <a href="mailto:estuardotecun@gmail.com" class="button contact__button">
+                        <img src="./img/icons/gmail.svg" alt="Email" class="contact__icon">
+                        Email
+                    </a>
+                    <a href="https://github.com/Randolh" class="button contact__button" target="_blank">
+                        <img src="./img/icons/github.svg" alt="GitHub" class="contact__icon">
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/randolh-estuardo-tec%C3%BAn-542b4b3a4/"
+                        class="button contact__button" target="_blank">
+                        <img src="./img/icons/linkedin.svg" alt="LinkedIn" class="contact__icon">
+                        LinkedIn
+                    </a>
+                    <a href="https://www.curseforge.com/members/navierhz/projects" class="button contact__button"
+                        target="_blank">
+                        <img src="./img/icons/curseforge.svg" alt="CurseForge" class="contact__icon">
+                        CurseForge
+                    </a>
+                    <a href="https://discord.com/users/1199924127360876544" class="button contact__button"
+                        target="_blank">
+                        <img src="./img/icons/discord.svg" alt="Discord" class="contact__icon">
+                        Discord
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__text">&copy; 2026 | Portafolio de Randolh Estuardo Tecún. Todos los derechos reservados.
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
