@@ -409,6 +409,7 @@ html {
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     user-select: none;
+    cursor: pointer;
 }
 
 .hero__avatar-track {

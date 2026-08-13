@@ -45,6 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    track.addEventListener('click', () => {
+        nextSlide();
+        startAutoSlide();
+    });
+
     dots.forEach((dot, i) => {
         dot.addEventListener('click', () => {
             goToSlide(i);
