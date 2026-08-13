@@ -398,6 +398,7 @@ html {
 }
 
 .hero__avatar {
+    position: relative;
     width: 160px;
     height: 160px;
     border-radius: 50%;
@@ -407,10 +408,48 @@ html {
     box-shadow: 0 0 25px rgba(152, 255, 152, 0.4);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    user-select: none;
+}
+
+.hero__avatar-track {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .hero__image {
-    width: 100%;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    flex-shrink: 0;
+}
+
+.hero__avatar-dots {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+    z-index: 5;
+}
+
+.hero__avatar-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.hero__avatar-dot.active {
+    background: var(--color-mint);
+    width: 16px;
+    border-radius: 4px;
 }
 
 .theme-toggle__checkbox:checked~.page__wrapper .hero__avatar {
